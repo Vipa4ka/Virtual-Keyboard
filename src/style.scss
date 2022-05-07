@@ -10,7 +10,21 @@ html {
 }
 
 body {
-  background: #e95d5d;
+  background-color: rgba(182, 241, 241, 0.859);
   font-size: 1.4rem;
   line-height: 2rem;
+  text-align: center;
+  padding: 70px 0;
+}
+.text {
+  margin: 40px auto 0;
+  width: 900px;
+  height: 235px;
+}
+.keyboard {
+  margin: 0 auto;
+  border: groove 0.3em rgb(3, 201, 215);
+  border-radius: 0.5em;
+  width: 900px;
+  height: 235px;
 }

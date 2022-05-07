@@ -1,3 +1,9 @@
 import "../style.scss";
+import './get-refs.js';
+import './Keyboard.js';
+import './layoutKeyboard.js'
 
-console.log('s');
+
+
+//   const keyboard = new Keyboard();
+//   keyboard.init();

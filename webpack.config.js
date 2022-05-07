@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './virtual-keyboard/src/js/index.js',
+  entry: './src/js/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'build'),
@@ -46,7 +46,7 @@ module.exports = {
       ],
   },
   plugins: [new HtmlWebpackPlugin({
-    template: 'virtual-keyboard/src/index.html',
+    template: 'src/index.html',
   }),
     new MiniCssExtractPlugin({ filename: "style.css", }),
   new CleanWebpackPlugin(),
