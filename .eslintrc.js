@@ -1,17 +1,19 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs":true,
-        "es2021": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "ignorePatterns": ["webpack.config.js", "build/script.js"],
-    "rules": {
-        "semi": ["error", "always"],
-        "quotes": ["error", "semi"]
-    }
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+  },
+  extends: [
+    'airbnb-base',
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  ignorePatterns: ['webpack.config.js', 'build/main.js'],
+  rules: {
+    quotes: ['error', 'single'],
+  },
+
 };

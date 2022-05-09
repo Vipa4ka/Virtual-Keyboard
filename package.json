@@ -7,6 +7,7 @@
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
     "predeploy": "npm run build",
+    "lint": "eslint --ext .js --fix .",
     "deploy": "gh-pages -d build"
   },
   "repository": {
@@ -27,6 +28,8 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "html-webpack-plugin": "^5.5.0",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
