@@ -1,4 +1,4 @@
-const keyboarlist = [
+export default [
   [
     {
       code: 'Backquote',
@@ -81,13 +81,13 @@ const keyboarlist = [
     {
       code: 'Backspace',
       func: true,
-      lang: { en: '⌫ Back', ru: '⌫ Back' },
+      lang: { en: '⇦ Back', ru: '⇦ Back' },
       width: 'wide',
     },
     {
       code: 'Delete',
       func: true,
-      lang: { en: 'Del ⌦', ru: 'Del ⌦' },
+      lang: { en: 'DEL', ru: 'DEL' },
       width: 'wide',
     },
   ],
@@ -95,7 +95,7 @@ const keyboarlist = [
     {
       code: 'Tab',
       func: true,
-      lang: { en: '↹ Tab', ru: '↹ Tab' },
+      lang: { en: 'Tab  ↹', ru: 'Tab ↹' },
       width: 'extra-wide',
     },
     {
@@ -181,7 +181,7 @@ const keyboarlist = [
     {
       code: 'CapsLock',
       func: true,
-      lang: { en: '🅰 Caps', ru: '🅰 Caps' },
+      lang: { en: 'CapsLock', ru: 'CapsLock' },
       width: 'extra-wide',
     },
     {
@@ -247,13 +247,13 @@ const keyboarlist = [
     {
       code: 'Quote',
       func: false,
-      lang: { en: "'", ru: 'э' },
+      lang: { en: '\'', ru: 'э' },
       width: 'regular',
     },
     {
       code: 'Enter',
       func: true,
-      lang: { en: '↩ Enter', ru: '↩ Enter' },
+      lang: { en: '⏎ Enter', ru: '⏎ Enter' },
       width: 'extra-wide',
     },
   ],
